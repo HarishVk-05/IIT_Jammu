@@ -2,7 +2,8 @@ from __future__ import annotations
 
 import logging
 import json
-
+import os
+os.environ["PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION"] = "python"
 import pandas as pd
 import streamlit as st
 
