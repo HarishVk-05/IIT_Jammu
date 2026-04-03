@@ -1,26 +1,21 @@
-streamlit
-pandas
-numpy
-plotly
-sqlalchemy
-
-# Data handling
-pyarrow
-netCDF4
+argopy
 xarray
-
-# LLM + LangChain
+netCDF4
+pandas 
+numpy
+pyarrow
+sqlalchemy 
+streamlit
+plotly
 langchain
 langchain-community
 langchain-groq
 langchain-chroma
+langchain-huggingface
 chromadb
 sentence-transformers
-groq
-
-# Utils
+pydantic
 python-dotenv
-
-# CRITICAL FIXES
-protobuf==3.20.3
-pydantic==2.7.4
+torch
+torchvision
+transformers
