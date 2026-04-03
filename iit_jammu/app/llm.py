@@ -5,10 +5,10 @@ from langchain_groq import ChatGroq
 from iit_jammu.config import GROQ_API_KEY, GROQ_MODEL
 
 logger = logging.getLogger(__name__)
-import os
+
 import streamlit as st
 
-GROQ_API_KEY = st.secrets.get("GROQ_API_KEY") or os.getenv("GROQ_API_KEY")
+GROQ_API_KEY = st.secrets.get("GROQ_API_KEY") 
 def get_llm(temperature: float = 0.0) -> ChatGroq:
     if not GROQ_API_KEY:
         raise EnvironmentError(
