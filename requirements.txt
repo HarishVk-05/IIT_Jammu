@@ -2,6 +2,9 @@ argopy
 xarray
 netCDF4
 pandas 
+protobuf==3.20.3
+opentelemetry-sdk==1.22.0
+opentelemetry-exporter-otlp==1.22.0
 numpy
 pyarrow
 sqlalchemy 
@@ -16,3 +19,6 @@ chromadb
 sentence-transformers
 pydantic
 python-dotenv
+torch
+torchvision
+transformers
