@@ -3,10 +3,24 @@ pandas
 numpy
 plotly
 sqlalchemy
+
+# Data handling
+pyarrow
+netCDF4
+xarray
+
+# LLM + LangChain
 langchain
+langchain-community
+langchain-groq
 langchain-chroma
 chromadb
 sentence-transformers
 groq
+
+# Utils
 python-dotenv
+
+# CRITICAL FIXES
 protobuf==3.20.3
+pydantic==2.7.4
