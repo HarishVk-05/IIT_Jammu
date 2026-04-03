@@ -7,7 +7,7 @@ import pandas as pd
 import streamlit as st
 
 from iit_jammu.app.db import run_query, get_database_stats
-from iit_jammu.app.planner import plan_question, plan_sql_and_chart, fix_sql_and_chart, explain_concept
+from planner import plan_question, plan_sql_and_chart, fix_sql_and_chart, explain_concept
 from iit_jammu.app.visuals import build_figure, build_anomaly_figure
 from iit_jammu.app.analytics import run_anomaly_analysis
 from iit_jammu.config import GROQ_MODEL, SQLITE_PATH, CHROMA_DIR
