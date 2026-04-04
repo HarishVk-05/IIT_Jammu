@@ -83,7 +83,7 @@ iit_jammu/
 ### 1. Clone and Install
 
 ```bash
-git clone <>
+git clone https://github.com/HarishVk-05/IIT_Jammu
 cd iit_jammu
 pip install -r requirements.txt
 ```
